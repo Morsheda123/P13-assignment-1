@@ -127,11 +127,11 @@ nav{
 }
 /* Note */
 .note {
-    padding: 0px 120px;
+    padding: 80px 120px;
     text-align: center;
-    height: 448px;
     width: 100%;
     max-width: 1600px;
+    margin: auto;
 }
 .text{
     font-size: 48px;
@@ -145,26 +145,22 @@ nav{
 
 .card {
     width: 322px;
-    height: 300px;
-    background: #FFFF;
-    padding: 24px;
-    margin: 44px;
-    border-radius: 8px;
-    box-shadow: 0 0 9px 0 #d2cdcd;
-    justify-content: center;
-    align-items: center;
+    background: #fff;
+    padding: 32px 24px;
+    border-radius: 12px;
+
+    box-shadow: 0 8px 24px #c4c5c5;
+
     display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 .card-container {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 20px;
-
-    justify-content: flex-start;
-    flex-wrap: nowrap;
-    margin-top: 40px;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 50px;
 }
 
 .card-icon {
@@ -177,10 +173,10 @@ nav{
     align-items: center;
     justify-content: center;
 
-    margin: 0 auto 20px;
+    margin-bottom: 20px;
 }
 
-.icon-circle img {
+.card-icon img {
     width: 32px;
     height: 32px;
     object-fit: contain;
@@ -215,8 +211,8 @@ nav{
 }
 
 .small-title {
-    color: green;
-    font-size: 14px;
+    color: #30b868;
+    font-size: 16px;
 }
 
 .brain ul {
@@ -234,7 +230,7 @@ nav{
     vertical-align: middle;
 }
 
-/*  */
+/* Early Access */
 .Early-access{
     padding: 2px 120px 120px 120px;
 }
@@ -264,3 +260,43 @@ nav{
   font-size: 16px;
   color: #627382;
 }
+
+/* Footer*/
+.footer {
+  background: #001931;
+  color: white;
+  padding: 120px 120px 30px 120px;
+}
+
+.footer-top {
+  max-width: 1600px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 80px;
+}
+
+.footer-logo {
+  height: 60px;
+ 
+}
+
+.footer-social p {
+  margin-bottom: 36px;
+}
+
+.icons span {
+  margin-right: 10px;
+  font-weight: bold;
+  
+}
+
+.footer-copy {
+  border-top: #627382;
+  text-align: center;
+  font-size: 16px;
+  color: #FFFF;
+  padding: 30px;
+}
+
