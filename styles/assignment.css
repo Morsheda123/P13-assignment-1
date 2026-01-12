@@ -233,3 +233,34 @@ nav{
     margin-right: 8px;
     vertical-align: middle;
 }
+
+/*  */
+.Early-access{
+    padding: 2px 120px 120px 120px;
+}
+
+.early-section {
+  background: #f7f6f2;
+  text-align: center;
+  padding: 80px 40px;
+  border-radius: 12px;
+  max-width: 1600px;
+  margin: 80px auto;
+}
+
+.early-section h2 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.early-text {
+  max-width: 700px;
+  margin: 0 auto 24px;
+  color: #627382;
+}
+
+.early-note {
+  margin-top: 24px;
+  font-size: 16px;
+  color: #627382;
+}
