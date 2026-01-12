@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+header ul li a:hover{
+    color: blueviolet;
+}
 
 .font-inter{
   font-family: "Inter";
@@ -43,12 +45,10 @@
     margin-left: 6px;
 }
 
+
+
 /* main style */
-
-
 /* Navigation bar */
-
-
 header{
     background-color: #FFFF;
     padding: 16px 120px;
@@ -281,9 +281,13 @@ nav{
   height: 60px;
  
 }
-
+.footer-social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .footer-social p {
-  margin-bottom: 36px;
+  margin-bottom: 6px;
 }
 
 .icons span {
